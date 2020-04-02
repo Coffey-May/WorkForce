@@ -1,0 +1,160 @@
+{
+    "computers": [
+        {
+            "id": 1,
+            "model": "Macbook Pro",
+            "year": 2015
+        },
+        {
+            "id": 2,
+            "model": "Surface Pro",
+            "year": 2020
+        },
+        {
+            "id": 3,
+            "model": "Lenovo ThinkPad",
+            "year": 1996
+        },
+        {
+            "id": 4,
+            "model": "Microwave",
+            "year": 1946
+        },
+        {
+            "id": 5,
+            "model": "IBM PC",
+            "year": 1981
+        }
+    ],
+    "employees": [
+        {
+            "id": 1,
+            "firstName": "Rainu",
+            "lastName": "Ittycheriah",
+            "age": 41,
+            "computerId": 1,
+            "departmentId": 2,
+            "locationId": 2
+        },
+        {
+            "id": 2,
+            "firstName": "Bill",
+            "lastName": "Gates",
+            "age": 64,
+            "computerId": 2,
+            "departmentId": 4,
+            "locationId": 1
+        },
+        {
+            "id": 3,
+            "firstName": "Ron",
+            "lastName": "Jeremy",
+            "age": 66,
+            "computerId": 5,
+            "departmentId": 1,
+            "locationId": 3
+        },
+        {
+            "id": 4,
+            "firstName": "Keith",
+            "lastName": "Richards",
+            "age": "Immortal",
+            "computerId": 3,
+            "departmentId": 3,
+            "locationId": 1
+        },
+        {
+            "id": 5,
+            "firstName": "Frank",
+            "lastName": "Sinatra",
+            "age": 104,
+            "computerId": 4,
+            "departmentId": 1,
+            "locationId": 2
+        }
+    ],
+    "departments": [
+        {
+            "id": 1,
+            "name": "Accounting"
+        },
+        {
+            "id": 2,
+            "name": "Exotic Dancing"
+        },
+        {
+            "id": 3,
+            "name": "Lion Taming"
+        },
+        {
+            "id": 4,
+            "name": "Garbage Collection"
+        }
+    ],
+    "locations": [
+        {
+            "id": 1,
+            "city": "Atlanta"
+        },
+        {
+            "id": 2,
+            "city": "Memphis"
+        },
+        {
+            "id": 3,
+            "city": "Nashville"
+        }
+    ],
+    "customers": [
+        {
+            "id": 1,
+            "businessName": "Gandalf Inc"
+        },
+        {
+            "id": 2,
+            "businessName": "Pails & Money"
+        },
+        {
+            "id": 3,
+            "businessName": "Hatchets & Ratchets"
+        },
+        {
+            "id": 4,
+            "businessName": "Stars & Lumber"
+        },
+        {
+            "id": 5,
+            "businessName": "Duck & Dovetail"
+        }
+    ],
+    "employeeCustomers": [
+        {
+            "id": 1,
+            "employeeId": 1,
+            "customerId": 5,
+            "rate": 60,
+            "contractLength": 180
+        },
+        {
+            "id": 2,
+            "employeeId": 3,
+            "customerId": 4,
+            "rate": 75,
+            "contractLength": 540
+        },
+        {
+            "id": 3,
+            "employeeId": 2,
+            "customerId": 5,
+            "rate": 110,
+            "contractLength": 195
+        },
+        {
+            "id": 4,
+            "employeeId": 1,
+            "customerId": 2,
+            "rate": 250,
+            "contractLength": 80
+        }
+    ]
+}

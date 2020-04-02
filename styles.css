@@ -1,0 +1,19 @@
+/* 
+.Employees{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.employee{
+    background-color: rgb(150, 150, 150);
+    width:15vw;
+}
+
+h2{
+   
+    color:white;
+    padding:5px;
+    margin:0 auto;
+} */
